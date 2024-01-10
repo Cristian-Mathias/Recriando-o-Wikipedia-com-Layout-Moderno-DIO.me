@@ -1,0 +1,192 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background:#c4d0c4 ;
+ 
+   
+}
+figure {
+    margin: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+ul { list-style: none; 
+    padding-left: 5px; 
+   
+}
+a { color:blue; 
+    text-decoration: none;
+  
+}
+.bar {
+    background-color: #2f4f4f;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: #f0fff0;
+    text-align: left;
+}
+.subTituloSerieDeTv{
+    text-align:left;
+    padding-left: 38px;
+    font-size: 20px;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    font-family: monospace ;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: bold;
+    background:#c4d0c4 ;
+}
+main h1{
+    font-size: 30px;
+}
+main h2{
+    font-size: 25px;
+}
+main h3{
+    font-size: 20px;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+   
+}
+.anchors h2{
+    font-size: 20px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+
+
+.imgLogo{
+    
+    padding-left: 70px;
+}
+.imgLogoOfThrones{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 100%; 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 300px; /* Defina a altura da div conforme necessário */
+    border: 1px solid #ccc; /* Apenas para visualização */
+}
+.descicaoImg{
+    font-family: monospace;
+    font-size: 12px;
+    text-align: center;
+}
+table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #000;
+    margin: 0px;
+    padding: 8px;
+    text-align: center;
+    width: 100%;   
+    background: white;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;   
+}
+
+thead {
+    background-color: #c4d0c4;
+}
+
+tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.iframePrevTempo{
+    border-top:1px solid #cdcdcd;
+   
+}
+
+.linkImgOfThrones{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 100%; 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+   
+}
+.linkImgGreysAnatomy{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 100%; 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    border-top:1px solid #cdcdcd;
+}
+.linkImgTheBlackList{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da div */
+    max-height: 100%; 
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    border-top:1px solid #cdcdcd;
+}
+
+
+
+a.image-linkOfThrones {
+    background-image: url('gameOfThronesAnuncio.png'); /* Insira o caminho para sua imagem */
+    transition: all 0.5s ease;
+}
+
+a.image-linkOfThrones:hover {
+    opacity: 0.4; /* Efeito ao passar o mouse */
+}
+
+a.image-linkOfThrones:active {
+    transform: translateY(2px); /* Efeito ao clicar */
+}
+
+a.image-linkGreysAnatomy { 
+    background-image: url('greysAnatoyAnuncio.jpg'); /* Insira o caminho para sua imagem */
+    transition: all 0.5s ease;
+}
+
+a.image-linkGreysAnatomy:hover {
+    opacity: 0.4; /* Efeito ao passar o mouse */
+}
+
+a.image-linkGreysAnatomy:active {
+    transform: translateY(2px); /* Efeito ao clicar */
+}
+
+a.image-linkBlackList {
+    background-image: url('theBlackListAnuncio.png'); /* Insira o caminho para sua imagem */
+    transition: all 0.5s ease;
+}
+
+a.image-linkBlackList:hover {
+    opacity: 0.4; /* Efeito ao passar o mouse */
+}
+
+a.image-linkBlackList:active {
+    transform: translateY(2px); /* Efeito ao clicar */
+}
+
+
+
+
